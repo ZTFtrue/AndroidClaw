@@ -103,7 +103,7 @@ data class AiAction(
 // UI 状态模型
 data class AgentUiState(
     val isRunning: Boolean = false,
-    val status: String = "等待指令...",
+    val status: String = "waiting command...",
     val userInput: String = "",
     val aiProvider: String = "Gemini" // Gemini, OpenAI, Local
 )
